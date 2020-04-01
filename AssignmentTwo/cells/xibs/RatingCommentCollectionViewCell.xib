@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RatingCommentCollectionViewCell" customModule="AssignmentTwo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="752" height="203"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="752" height="203"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6Y-yc-j3r">
+                        <rect key="frame" x="0.0" y="0.0" width="752" height="203"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What did they do to this app??" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gof-GW-SCd">
+                                <rect key="frame" x="16" y="16" width="624" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="Oct 27" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlF-0n-LvR">
+                                <rect key="frame" x="656" y="16" width="81" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="pMq-Ql-tso"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daphne65" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dj-U0-ivv">
+                                <rect key="frame" x="655.5" y="53" width="80.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0do-qI-gcA">
+                                <rect key="frame" x="16" y="52.5" width="22" height="20"/>
+                                <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6a5-V1-y8b">
+                                <rect key="frame" x="42" y="52.5" width="22" height="20"/>
+                                <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5z4-XN-JLn">
+                                <rect key="frame" x="94" y="52.5" width="22" height="20"/>
+                                <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bu8-ZL-73m">
+                                <rect key="frame" x="68" y="52.5" width="22" height="20"/>
+                                <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DRy-34-MA2">
+                                <rect key="frame" x="120" y="52.5" width="22" height="20"/>
+                                <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWb-k3-2Yp">
+                                <rect key="frame" x="16" y="88.5" width="720" height="81.5"/>
+                                <string key="text">Wikipedia is owned by an American organization, the Wikimedia Foundation, which is in San Francisco, California. Wikipedia's name is a portmanteau of two words, wiki and encyclopedia. Wikipedia was started on January 10, 2001 by Jimmy Wales and Larry Sanger as part of an earlier Internet encyclopedia named Nupedia</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5z4-XN-JLn" firstAttribute="leading" secondItem="bu8-ZL-73m" secondAttribute="trailing" constant="4" id="7aC-e4-pzc"/>
+                            <constraint firstItem="LlF-0n-LvR" firstAttribute="leading" secondItem="Gof-GW-SCd" secondAttribute="trailing" constant="16" id="8d1-5D-TUG"/>
+                            <constraint firstItem="0do-qI-gcA" firstAttribute="top" secondItem="Gof-GW-SCd" secondAttribute="bottom" constant="16" id="9yg-Er-JpT"/>
+                            <constraint firstItem="eWb-k3-2Yp" firstAttribute="top" secondItem="DRy-34-MA2" secondAttribute="bottom" constant="16" id="A05-st-G3W"/>
+                            <constraint firstItem="Gof-GW-SCd" firstAttribute="top" secondItem="h6Y-yc-j3r" secondAttribute="top" constant="16" id="B8F-Lz-bQL"/>
+                            <constraint firstItem="8dj-U0-ivv" firstAttribute="top" secondItem="LlF-0n-LvR" secondAttribute="bottom" constant="16" id="GU9-et-TqK"/>
+                            <constraint firstItem="0do-qI-gcA" firstAttribute="top" secondItem="Gof-GW-SCd" secondAttribute="bottom" constant="16" id="IiM-S5-Q5r"/>
+                            <constraint firstItem="5z4-XN-JLn" firstAttribute="top" secondItem="Gof-GW-SCd" secondAttribute="bottom" constant="16" id="LED-zJ-yHy"/>
+                            <constraint firstItem="bu8-ZL-73m" firstAttribute="top" secondItem="Gof-GW-SCd" secondAttribute="bottom" constant="16" id="MlW-mt-WFE"/>
+                            <constraint firstItem="6a5-V1-y8b" firstAttribute="leading" secondItem="0do-qI-gcA" secondAttribute="trailing" constant="4" id="RFG-KQ-GZX"/>
+                            <constraint firstItem="eWb-k3-2Yp" firstAttribute="leading" secondItem="h6Y-yc-j3r" secondAttribute="leading" constant="16" id="RjQ-X2-ggU"/>
+                            <constraint firstItem="0do-qI-gcA" firstAttribute="leading" secondItem="h6Y-yc-j3r" secondAttribute="leading" constant="16" id="SlR-vL-lOB"/>
+                            <constraint firstItem="LlF-0n-LvR" firstAttribute="top" secondItem="h6Y-yc-j3r" secondAttribute="top" constant="16" id="Vpt-L6-d5z"/>
+                            <constraint firstAttribute="trailing" secondItem="eWb-k3-2Yp" secondAttribute="trailing" constant="16" id="XGR-ab-m4k"/>
+                            <constraint firstAttribute="trailing" secondItem="LlF-0n-LvR" secondAttribute="trailing" constant="16" id="ekl-IR-h1U"/>
+                            <constraint firstAttribute="trailing" secondItem="8dj-U0-ivv" secondAttribute="trailing" constant="16" id="gUM-td-Tgk"/>
+                            <constraint firstItem="6a5-V1-y8b" firstAttribute="top" secondItem="Gof-GW-SCd" secondAttribute="bottom" constant="16" id="myB-hZ-aOk"/>
+                            <constraint firstItem="bu8-ZL-73m" firstAttribute="leading" secondItem="6a5-V1-y8b" secondAttribute="trailing" constant="4" id="tsR-5u-N3W"/>
+                            <constraint firstItem="DRy-34-MA2" firstAttribute="leading" secondItem="5z4-XN-JLn" secondAttribute="trailing" constant="4" id="vlu-em-c0m"/>
+                            <constraint firstItem="DRy-34-MA2" firstAttribute="top" secondItem="Gof-GW-SCd" secondAttribute="bottom" constant="16" id="wQI-Es-zRf"/>
+                            <constraint firstItem="Gof-GW-SCd" firstAttribute="leading" secondItem="h6Y-yc-j3r" secondAttribute="leading" constant="16" id="yCF-Vn-orp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="h6Y-yc-j3r" secondAttribute="bottom" id="WnP-Pu-LYO"/>
+                <constraint firstItem="h6Y-yc-j3r" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aeT-oe-J6L"/>
+                <constraint firstAttribute="trailing" secondItem="h6Y-yc-j3r" secondAttribute="trailing" id="e8i-C6-902"/>
+                <constraint firstItem="h6Y-yc-j3r" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gwv-99-KPp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="752" height="203"/>
+            <connections>
+                <outlet property="labelDate" destination="LlF-0n-LvR" id="vgV-ZM-zJy"/>
+                <outlet property="labelDetail" destination="eWb-k3-2Yp" id="eHB-RJ-5qe"/>
+                <outlet property="labelTitle" destination="Gof-GW-SCd" id="Xcu-Lf-oRk"/>
+                <outlet property="labelUserName" destination="8dj-U0-ivv" id="cAM-Wn-yby"/>
+            </connections>
+            <point key="canvasLocation" x="-492.75362318840581" y="178.45982142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="star" catalog="system" width="64" height="58"/>
+        <image name="star.fill" catalog="system" width="64" height="58"/>
+    </resources>
+</document>
